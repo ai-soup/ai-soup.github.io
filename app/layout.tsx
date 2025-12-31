@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SOUP - 여행 정보 플랫폼 개발사",
-  description: "SOUP는 여행길 앱을 개발하는 혁신적인 IT 기업입니다. AI 기반 여행 정보로 여행자들에게 최고의 경험을 제공합니다.",
+  title: "SOUP - AI 기반 여행 플랫폼 개발사",
+  description: "여행길은 AI 개인화 추천으로 지역축제와 숨은 여행지를 발견하고, 실시간 여행자 커뮤니티를 통해 검증된 여행 정보를 제공하는 스마트 여행 플랫폼입니다.",
 };
 
 export default function RootLayout({

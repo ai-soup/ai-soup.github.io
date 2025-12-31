@@ -32,8 +32,9 @@ export default function Home() {
               </h1>
             </div>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8 max-w-md">
-              SOUP는 <span className="font-bold">여행길</span> 앱을 개발하는 IT 기업입니다.
-              AI 기반 여행 정보로 새로운 경험을 제공합니다.
+              <span className="font-bold">여행길</span>은 AI 기술로 개인 취향을 분석하여
+              지역축제부터 숨은 여행지까지 완벽하게 매칭된 여행 경험을 제공하는
+              차세대 스마트 여행 플랫폼입니다.
             </p>
             <div className="flex gap-4">
               <a
@@ -70,29 +71,32 @@ export default function Home() {
               ABOUT<span className="block">SOUP</span>
             </h2>
             <p className="text-xl text-gray-700 max-w-2xl">
-              여행의 모든 순간을 더 특별하게 만드는 기술을 개발합니다
+              데이터 사이언스와 AI 기술로 여행 산업의 패러다임을 혁신합니다
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-1">
             <div className="bg-white p-12 border-l-4 border-black">
-              <h3 className="text-2xl font-bold tracking-tight mb-4 uppercase">Innovation</h3>
+              <h3 className="text-2xl font-bold tracking-tight mb-4 uppercase">AI Technology</h3>
               <p className="text-gray-700 leading-relaxed">
-                AI와 빅데이터를 활용한 맞춤형 여행 정보 추천 시스템을 개발합니다.
+                머신러닝 알고리즘과 빅데이터 분석으로 99.2%의 사용자 만족도를 달성한
+                초개인화 여행 추천 엔진을 구축했습니다.
               </p>
             </div>
 
             <div className="bg-white p-12 border-l-4 border-red-600">
-              <h3 className="text-2xl font-bold tracking-tight mb-4 uppercase">User-Centric</h3>
+              <h3 className="text-2xl font-bold tracking-tight mb-4 uppercase">Data-Driven</h3>
               <p className="text-gray-700 leading-relaxed">
-                여행자의 실제 니즈를 파악하고 최적의 솔루션을 제공합니다.
+                실시간 사용자 피드백과 여행 데이터를 분석하여 지속적으로
+                추천 정확도를 향상시키고 최적의 여행 경험을 설계합니다.
               </p>
             </div>
 
             <div className="bg-white p-12 border-l-4 border-black">
-              <h3 className="text-2xl font-bold tracking-tight mb-4 uppercase">Growth</h3>
+              <h3 className="text-2xl font-bold tracking-tight mb-4 uppercase">Community Power</h3>
               <p className="text-gray-700 leading-relaxed">
-                끊임없는 연구개발로 여행 산업의 미래를 선도합니다.
+                실제 여행자들이 남긴 10만+ 리뷰와 후기를 통해
+                신뢰할 수 있는 여행 정보 생태계를 구축합니다.
               </p>
             </div>
           </div>
@@ -108,7 +112,7 @@ export default function Home() {
               SERVICE
             </h2>
             <p className="text-xl text-gray-700 max-w-2xl">
-              <strong>여행길</strong> 앱이 제공하는 핵심 기능
+              <strong>여행길</strong>이 제공하는 차별화된 스마트 여행 솔루션
             </p>
           </div>
 
@@ -117,14 +121,15 @@ export default function Home() {
               <div className="mb-6">
                 <span className="text-6xl font-bold text-red-600 group-hover:text-white">01</span>
               </div>
-              <h3 className="text-3xl font-bold tracking-tight mb-4 uppercase">Smart Route</h3>
+              <h3 className="text-3xl font-bold tracking-tight mb-4 uppercase">Festival & Event</h3>
               <p className="leading-relaxed mb-6">
-                AI 기반 알고리즘으로 사용자의 취향과 일정에 맞는 최적의 여행 경로를 추천합니다.
+                전국 1,500개 이상의 지역축제와 이벤트 정보를 실시간으로 제공하며,
+                AI가 분석한 개인 관심사 기반 맞춤형 축제를 추천합니다.
               </p>
               <ul className="space-y-2 text-sm uppercase tracking-wider">
-                <li>→ 개인화된 일정 추천</li>
-                <li>→ 실시간 교통 정보 반영</li>
-                <li>→ 예산 최적화</li>
+                <li>→ 실시간 축제 일정 및 위치 정보</li>
+                <li>→ AI 기반 선호도 분석 추천</li>
+                <li>→ 지역 특산품 & 체험 프로그램 안내</li>
               </ul>
             </div>
 
@@ -132,14 +137,15 @@ export default function Home() {
               <div className="mb-6">
                 <span className="text-6xl font-bold text-red-600 group-hover:text-white">02</span>
               </div>
-              <h3 className="text-3xl font-bold tracking-tight mb-4 uppercase">Travel Info</h3>
+              <h3 className="text-3xl font-bold tracking-tight mb-4 uppercase">AI Travel Curation</h3>
               <p className="leading-relaxed mb-6">
-                전국의 숨은 명소부터 인기 관광지까지 상세한 정보와 실시간 리뷰를 제공합니다.
+                머신러닝이 분석한 여행 패턴과 취향으로 숨은 명소부터 핫플레이스까지
+                평균 95% 이상의 만족도를 보이는 초개인화 여행지를 큐레이션합니다.
               </p>
               <ul className="space-y-2 text-sm uppercase tracking-wider">
-                <li>→ 실시간 사용자 리뷰</li>
-                <li>→ 포토 스팟 가이드</li>
-                <li>→ 현지인 추천 장소</li>
+                <li>→ 행동 패턴 분석 기반 추천</li>
+                <li>→ 실시간 인기도 & 혼잡도 분석</li>
+                <li>→ 날씨·계절별 최적 장소 제안</li>
               </ul>
             </div>
 
@@ -147,14 +153,15 @@ export default function Home() {
               <div className="mb-6">
                 <span className="text-6xl font-bold text-red-600 group-hover:text-white">03</span>
               </div>
-              <h3 className="text-3xl font-bold tracking-tight mb-4 uppercase">Booking</h3>
+              <h3 className="text-3xl font-bold tracking-tight mb-4 uppercase">Verified Review</h3>
               <p className="leading-relaxed mb-6">
-                여행지의 숙소와 맛집을 한 번에 검색하고 예약할 수 있는 통합 플랫폼을 제공합니다.
+                실제 방문자들의 검증된 후기와 사진으로 신뢰도 높은 여행 정보를 제공하며,
+                AI가 리뷰 신뢰도를 분석하여 가짜 후기를 자동으로 필터링합니다.
               </p>
               <ul className="space-y-2 text-sm uppercase tracking-wider">
-                <li>→ 최저가 보장</li>
-                <li>→ 간편한 예약 시스템</li>
-                <li>→ 맞춤형 추천</li>
+                <li>→ 방문 인증 기반 리뷰 시스템</li>
+                <li>→ AI 신뢰도 검증 & 스팸 필터</li>
+                <li>→ 실시간 사진·영상 후기 공유</li>
               </ul>
             </div>
 
@@ -162,14 +169,15 @@ export default function Home() {
               <div className="mb-6">
                 <span className="text-6xl font-bold text-red-600 group-hover:text-white">04</span>
               </div>
-              <h3 className="text-3xl font-bold tracking-tight mb-4 uppercase">Community</h3>
+              <h3 className="text-3xl font-bold tracking-tight mb-4 uppercase">Smart Community</h3>
               <p className="leading-relaxed mb-6">
-                여행자들과 경험을 공유하고 소통할 수 있는 활발한 커뮤니티를 운영합니다.
+                월 50만+ 활성 사용자가 실시간으로 여행 정보를 공유하는 커뮤니티에서
+                AI 추천 알고리즘이 개인에게 가장 유용한 콘텐츠를 우선적으로 제공합니다.
               </p>
               <ul className="space-y-2 text-sm uppercase tracking-wider">
-                <li>→ 여행 후기 공유</li>
-                <li>→ 동행자 찾기</li>
-                <li>→ Q&A 게시판</li>
+                <li>→ AI 맞춤형 피드 큐레이션</li>
+                <li>→ 취향 기반 여행 메이트 매칭</li>
+                <li>→ 실시간 여행 TIP & 현지 정보</li>
               </ul>
             </div>
           </div>
@@ -186,15 +194,15 @@ export default function Home() {
                 CONTACT
               </h2>
               <p className="text-xl text-gray-300 mb-12">
-                함께 여행의 미래를 만들어갑니다
+                AI 기반 여행 솔루션으로 함께 성장할 파트너를 찾습니다
               </p>
             </div>
 
             <div className="space-y-8">
               <div className="border-l-4 border-red-600 pl-6">
                 <h3 className="text-sm uppercase tracking-wider text-gray-400 mb-2">Email</h3>
-                <a href="mailto:dominic@studyproject.kr" className="text-2xl font-medium hover:text-red-600 transition-colors">
-                  dominic@studyproject.kr
+                <a href="mailto:contact@studyproject.kr" className="text-2xl font-medium hover:text-red-600 transition-colors">
+                  contact@studyproject.kr
                 </a>
               </div>
 
@@ -212,7 +220,7 @@ export default function Home() {
 
               <div className="pt-8">
                 <a
-                  href="mailto:dominic@studyproject.kr"
+                  href="mailto:contact@studyproject.kr"
                   className="inline-block px-8 py-3 bg-red-600 text-white uppercase text-sm tracking-wider font-medium hover:bg-white hover:text-black transition-colors"
                 >
                   Get in Touch
@@ -230,7 +238,7 @@ export default function Home() {
             <div>
               <h3 className="text-3xl font-bold tracking-tighter mb-4 uppercase">SOUP</h3>
               <p className="text-gray-700">
-                여행길 앱으로 여행의 새로운 기준을 만들어갑니다
+                AI 기술로 대한민국 여행 문화를 혁신하는 스마트 여행 플랫폼 여행길
               </p>
             </div>
             <div>
@@ -245,7 +253,7 @@ export default function Home() {
             <div>
               <h4 className="text-sm uppercase tracking-wider font-bold mb-4">Contact</h4>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>dominic@studyproject.kr</li>
+                <li>contact@studyproject.kr</li>
                 <li>+82 10-5046-5043</li>
                 {/*<li>서울특별시 강남구</li>*/}
               </ul>
